@@ -1,2 +1,2 @@
 # shelf-talk
-Comic Book and book recommendation app
+A book and comic recommender that works like a good comic shop clerk: describe what you’re in the mood for, and it suggests titles and explains why. Built with Python, PostgreSQL, and machine learning. Work in progress.
