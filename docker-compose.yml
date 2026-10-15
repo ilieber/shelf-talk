@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    container_name: shelftalk-db
+    environment:
+      POSTGRES_USER: shelftalk
+      POSTGRES_PASSWORD: shelftalk_dev
+      POSTGRES_DB: shelftalk
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
