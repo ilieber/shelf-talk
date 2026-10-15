@@ -1,1 +1,1 @@
-Download the Goodreads Comics & Graphic dataset.
+Start the loading script.
