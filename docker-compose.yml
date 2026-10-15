@@ -2,6 +2,7 @@ services:
   db:
     image: postgres:16
     container_name: shelftalk-db
+    restart: unless-stopped
     environment:
       POSTGRES_USER: shelftalk
       POSTGRES_PASSWORD: shelftalk_dev
